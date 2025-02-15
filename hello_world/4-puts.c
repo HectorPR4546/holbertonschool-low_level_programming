@@ -3,6 +3,6 @@
 
 int main(void) /* This is uses as stardart input */
 {
-	puts("\"Programming is like building a multilingual puzzle\n);
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
 }
