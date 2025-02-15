@@ -1,7 +1,9 @@
 #include <stdio.h>
-/* Task # 4, using puts command and Betty style */
-
-int main(void) /* This is uses as stardart input */
+/**
+ * main - Entry point
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
