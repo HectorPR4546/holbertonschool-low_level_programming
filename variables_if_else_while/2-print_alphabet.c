@@ -1,16 +1,15 @@
 #include <stdio.h>
 /**
- * main - Prints the alphabet in lowercase
+ * main - Entry point
  * Return: 0 (success)
  */
 in main(void)
 {
-	char alphabet = 'a';
+	char alphabet;
 
-	while (alphabet <= 'z')
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
 		putchar(alphabet);
-		alphabet++;
 	}
 	putchar('\n');
 	return (0);
