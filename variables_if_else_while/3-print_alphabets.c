@@ -3,25 +3,21 @@
  * main - entry point
  * Return: 0 (success)
  */
-int main(void)
+int main(void);
 {
-	char alphabet;
+	int h = 'a';
+	int p = 'A';
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	while (h <= 'z')
 	{
-		alphabet = tolower(alphabet);
-		putchar(alphabet);
-		if (alphabet == 'Z')
-		{
-			alphabet = 'A';
-			for (; alphabet <= 'Z'; alphabet++)
-			{
-				putchar(alphabet);
-			}
-			break;
-		}
+		putchar (h);
+		h++;
+	}
+	while (p <= 'Z')
+	{
+		putchar (p);
+		p++;
 	}
 	putchar('\n');
 	return (0);
 }
-
