@@ -3,7 +3,7 @@
  * main - entry point
  * Return: 0 (success)
  */
-int main(void);
+int main(void)
 {
 	int h = 'a';
 	int p = 'A';
