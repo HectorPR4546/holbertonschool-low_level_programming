@@ -1,22 +1,20 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - entry point
  * Return: 0 (success)
  */
 int main(void)
 {
-	char h = '0';
-	char p = 'a'
+	int h;
+	int p;
 
-	while (h <= '9')
+	for (h = '0'; h <= '9'; h++)
 	{
-		putchar(h);
-		h++;
+		putchar (h);
 	}
-	while (p <= 'f')
+	for (p = 'a'; p <= 'f'; p++)
 	{
-		putchar(p);
-		p++;
+		putchar (p);
 	}
 	putchar('\n');
 	return (0);
