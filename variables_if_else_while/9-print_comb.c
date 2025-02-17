@@ -6,20 +6,15 @@
 int main(void)
 {
 	int h;
-	int p;
-	int v;
 
-	for (h = '0'; h <= '9'; h++)
+	for (h = '0'; h < '9'; h++)
 	{
-		putchar (h);
-	}
-	for (p = 'a'; p <= 'f'; p++)
-	{
-		putchar (p);
-	}
-	for (v = ', '; v++)
-	{
-		putchar (v);
+		putchar (h + '0');
+		if (h < 9)
+		{
+			putchar (',');
+			putchar (' ');
+		}
 	}
 	putchar('\n');
 	return (0);
