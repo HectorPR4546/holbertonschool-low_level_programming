@@ -5,11 +5,18 @@
  */
 int main(void)
 {
-	char a;
+	char h = '0';
+	char p = 'a'
 
-	for (a = '0'; a <= '15'; a++)
+	while (h <= '9')
 	{
-		putchar(a);
+		putchar(h);
+		h++;
+	}
+	while (p <= 'f')
+	{
+		putchar(p);
+		p++;
 	}
 	putchar('\n');
 	return (0);
