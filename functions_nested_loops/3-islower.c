@@ -1,9 +1,7 @@
 #include "main.h"
 /**
  * _islower - entrypoint
- *
- * @c: variable given.
- *
+ *@c variable given.
  * Return: 0 (success)
  */
 
