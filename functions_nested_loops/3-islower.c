@@ -10,7 +10,7 @@
 int _islower(int c)
 {
 
-	if (c == 'H' || c == 'o' || c == '108')
+	if (c == 0 || c == 9)
 	{
 		return (1);
 	}
