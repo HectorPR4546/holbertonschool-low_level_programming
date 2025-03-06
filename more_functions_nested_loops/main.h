@@ -9,4 +9,4 @@ void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
-unsigned int _strspn(char *s, char *accept);
+unsigned int _strspn(char s, char *accept);
