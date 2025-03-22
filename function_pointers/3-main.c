@@ -4,7 +4,7 @@
 
 /**
  * main - main entry
- * @argc: argument 
+ * @argc: argument
  * @argv: string in array
  * Return: 0 (success)
  */
