@@ -4,7 +4,7 @@
 
 /**
  * get_op_func - a function working by the user
- * @s: operator 
+ * @s: operator
  * Return: a pointer corresponding to user input
  */
 int (*get_op_func(char *s))(int, int)
